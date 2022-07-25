@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check Weather</title>
+</head>
+<body>
+  
+    <h1>Your coordinates:</h1>{{ details.geometry.coordinates }}
+    <h1>Your Location:</h1>{{ location }}
+</body>
+</html>
+
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.25,51.5,9]},"properties":{"meta":{"updated_at":"2022-07-25T19:32:41Z","units":{"air_pressure_at_sea_level":"hPa","air_temperature":"celsius","cloud_area_fraction":"%","precipitation_amount":"mm","relative_humidity":"%","wind_from_direction":"degrees","wind_speed":"m/s"}},"timeseries":[{"time":"2022-07-25T21:00:00Z","data":{"instant":{"details":{"air_pressure_at_sea_level":1014.8,"air_temperature":18.9,"cloud_area_fraction":100.0,"relative_humidity":63.0,"wind_from_direction":316.3,"wind_speed":4.0}},"next_12_hours":{"summary":{"symbol_code":"partlycloudy_day"}}

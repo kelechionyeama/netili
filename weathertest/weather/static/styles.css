@@ -1,0 +1,23 @@
+.platform {
+  height: 18px;
+  width: 35px;
+  background-color: grey;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 3px solid #000;
+  color: #000;
+}
+/*# sourceMappingURL=styles.css.map */
